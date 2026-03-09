@@ -1,0 +1,166 @@
+2026-03-09 23:54:11,895 - __main__ - INFO - Бот запускается...
+2026-03-09 23:54:15,540 - aiogram - INFO - Bot: Bot helper [@Helperses_Chat_Bot]
+2026-03-09 23:54:15,785 - aiogram - WARNING - Updates were skipped successfully.
+2026-03-09 23:54:15,785 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2026-03-09 23:56:42,955 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
+2026-03-10 00:03:07,370 - __main__ - ERROR - Ошибка удаления медиа: Forbidden: bot can't initiate conversation with a user
+2026-03-10 00:06:39,021 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
+2026-03-10 00:06:42,616 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
+2026-03-10 00:06:43,971 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
+2026-03-10 00:06:46,221 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
+2026-03-10 00:10:17,961 - __main__ - ERROR - Ошибка удаления: Forbidden: bot can't initiate conversation with a user
+2026-03-10 00:21:21,898 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
+2026-03-10 00:21:25,873 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
+2026-03-10 00:21:33,053 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
+2026-03-10 00:21:35,193 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
+2026-03-10 00:21:40,373 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("send_invoice() missing 1 required positional argument: 'provider_token'")>
+Traceback (most recent call last):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\Жанарыс\AppData\Local\Programs\Python\Python37\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "Bot.py", line 699, in buy_vip
+    start_parameter="vip"
+TypeError: send_invoice() missing 1 required positional argument: 'provider_token'
